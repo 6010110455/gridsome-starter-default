@@ -19,7 +19,7 @@ module.exports = function(api) {
 
     data.gcms.products.forEach(node => {
       createPage({
-        path: `/product/${node.slug}`,
+        path: `/gridsome-starter-default/product/${node.slug}`,
         component: './src/templates/Product.vue',
         context: {
           slug: node.slug,

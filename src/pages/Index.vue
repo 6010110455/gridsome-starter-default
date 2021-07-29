@@ -9,7 +9,7 @@
         v-for="product in $page.gcms.products"
         :key="product.slug"
         class="nav__link"
-        :to="'product/' + product.slug"
+        :to="'gridsome-starter-default/product/' + product.slug"
         >{{ product.name }}</g-link
       >
     </p>
