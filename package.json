@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build",
+    "predeploy": "npm run build",
+    "deploy": "gridsome build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
