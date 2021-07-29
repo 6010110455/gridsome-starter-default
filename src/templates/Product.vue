@@ -26,3 +26,10 @@ query GetProduct($slug: String) {
     }
 }
 </page-query>
+
+<style>
+
+
+
+
+</style>

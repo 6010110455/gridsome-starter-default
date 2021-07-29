@@ -27,6 +27,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  background-color: blanchedalmond;
 }
 .layout {
   max-width: 760px;
@@ -40,6 +41,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+  background-color: burlywood;
 }
 .nav__link {
   margin-left: 20px;
