@@ -5,16 +5,16 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Dev Case',
+  siteName: 'BENZ&NAY',
   plugins: [
     {
       use: '@gridsome/source-graphql',
       options: {
         url:
-        'https://api-ap-northeast-1.graphcms.com/v2/ckroytqkv02gj01xj38244y0s/master',
-        fieldName: 'product',
-        typeName: 'ProductTypes'
-      }
-    }
-  ]
-}
+          'https://api-eu-central-1.graphcms.com/v2/ck8sn5tnf01gc01z89dbc7s0o/master',
+        fieldName: 'gcms',
+        typeName: 'gcmsTypes',
+      },
+    },
+  ],
+};
